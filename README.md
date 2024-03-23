@@ -2,6 +2,19 @@
 data_engin
 
 
+dbt deps :
+install dependencies
+
+in cmd
+venv\Scripts\activate
+
+poweruser setuppe via vscode voor env te gebruike
+altijd activated zijn om dbt run te doen
+wnr ge dbt run doet die shit runt altijd vanaf waar uw venv ge activate is in uw terminal
+geld ook voor sources
+
+
+
 When you clone the dbt repository on a different PC, you’ll need to set up your environment again. Here are the steps you can follow:
 
 Clone the repository: Use the git clone command followed by the URL of your repository to clone it to the new PC.
