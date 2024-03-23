@@ -1,0 +1,7 @@
+/venv
+/airbnb/dbt_modules/
+/airbnb/target/
+*.csv
+*.log
+*.tsv
+*.DS_Store
