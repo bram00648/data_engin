@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+  - name: raw_data
+    meta:
+      external_location: "../data/{name}.csv"
+    tables:
+      - name: calendar_antwerp
+      - name: listing_antwerp
+      - name: listing_detailed_antwerp
+      - name: neighbourhoods_antwerp
+      - name: reviews_antwerp
+      - name: calendar_brussels
+      - name: listing_brussels
+      - name: listing_detailed_brussels
+      - name: neighbourhoods_brussels
+      - name: reviews_brussels
+      - name: calendar_ghent
+      - name: listing_ghent
+      - name: listing_detailed_ghent
+      - name: neighbourhoods_ghent
+      - name: reviews_ghent

@@ -1,4 +1,4 @@
-{{ config(materialized='external', location='../models/output/time.csv') }}
+{{ config(materialized='external', location='./models/time/output/time.csv') }}
 
 with dim_time as (
     {{ dbt_utils.date_spine(
